@@ -1,4 +1,4 @@
-# 🖼️ Custom Image Caption Generator (Florence-2 Inspired)
+# 🖼️ Image Caption Generator
 
 An elegant, lightweight (~168M parameters) image captioning model built completely from scratch in PyTorch for learning purposes. Inspired by the multimodal design principles of [**Florence-2**](https://arxiv.org/pdf/2311.06242) and the streamlined decoder-only architecture of [**Qwen 3**](https://arxiv.org/pdf/2505.09388), this project provides an end-to-end framework for styled image captioning. 
 
