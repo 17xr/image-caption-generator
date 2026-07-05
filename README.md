@@ -4,8 +4,6 @@ An elegant, lightweight (~168M parameters) image captioning model built complete
 
 The primary goal of this repository is educational—demonstrating how to parse vision features, construct token-level causal attention masks for cross-modality, implement high-performance inference with KV caching, and orchestrate optimized training loops using pure PyTorch.
 
----
-
 ## ✨ Key Features
 
 ### 1. Hybrid Multimodal Architecture
@@ -29,8 +27,6 @@ Built entirely from scratch in pure PyTorch with advanced learning routines:
 * **Warmup & Cosine Schedulers:** Uses a `SequentialLR` layout for linear learning rate warmup followed by cosine annealing.
 * **Decoupled Weight Decay:** Selectively applies L2 regularization to weights while excluding biases and normalization parameters.
 * **Label Smoothing:** Built directly into the cross-entropy loss objective to prevent overfitting.
-
----
 
 ## 📂 File Structure
 
@@ -69,8 +65,6 @@ Built entirely from scratch in pure PyTorch with advanced learning routines:
 │   └── training.ipynb          # End-to-end training notebook
 └── requirements.txt            # Python environment dependencies
 ```
-
----
 
 ## 🚀 Installation & Setup
 
@@ -126,7 +120,6 @@ streamlit run frontend/src/main.py
 ```
 This will automatically open the web interface in your default browser at `http://localhost:8501`. From here, you can upload images and check the generated multi-style captions!
 
----
 
 ## 🛠️ Tech Stack
 
@@ -135,5 +128,3 @@ This will automatically open the web interface in your default browser at `http:
 * **Inference Service:** FastAPI + Uvicorn
 * **Client Interface:** Streamlit
 * **Environment & Package Management:** `uv` (Astral)
-
----
