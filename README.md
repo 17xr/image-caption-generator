@@ -36,7 +36,7 @@ Built entirely from scratch in pure PyTorch with advanced learning routines:
 │   │   ├── __init__.py
 │   │   ├── dependencies.py
 │   │   ├── config.py
-│   │   └── main.py             # FastAPI entrypoint handling inference requests
+│   │   └── main.py             # FastAPI inference service
 │   ├── architecture
 │   │   ├── __init__.py
 │   │   └── transformer.py      # Model layers
@@ -58,11 +58,13 @@ Built entirely from scratch in pure PyTorch with advanced learning routines:
 │       └── coco_test.csv
 ├── frontend
 │   └── src
-│       └── main.py             # Streamlit application UI script
+│       └── main.py             # Streamlit web interface
 ├── models
-│   └── weights.pt              # Saved PyTorch model weights (state dict)
+│   └── weights.pt              # Model weights
 ├── notebooks
 │   └── training.ipynb          # End-to-end training notebook
+├── LICENSE
+├── README.md
 └── requirements.txt            # Python environment dependencies
 ```
 
