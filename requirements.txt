@@ -1,0 +1,5 @@
+fastapi[standard]
+torch
+torchvision
+transformers
+uvicorn[standard]
